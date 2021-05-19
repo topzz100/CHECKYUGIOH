@@ -20,11 +20,9 @@ function checkYuGiOh(n) {
 	if (list.length < 1) {
 		return 'invalid parameter: ' + n;
 	}
-	//if(n===undefined){
-	//return "invalid parameter"
-	//  }
-	//else{
+
 	else return list;
-	//}
+	
 }
-console.log(checkYuGiOh(10));
+console.log(checkYuGiOh(5));
+console.log(checkYuGiOh("fizzbuzz is meh"));
